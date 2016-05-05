@@ -20,12 +20,17 @@
     
     UIImage *snowManImage = [UIImage imageNamed:@"Snowman"];
     self.view.layer.contents = (__bridge id _Nullable)(snowManImage.CGImage);
-    self.view.layer.contentsGravity = kCAGravityResizeAspect;
+//    self.view.layer.contentsGravity = kCAGravityResizeAspect;
+    
+    [self setLayerContentClarity];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+/**
+ *  “当用代码的方式来处理寄宿图的时候，一定要记住要手动的设置图层的contentsScale属性”
+ */
+- (void)setLayerContentClarity {
+    self.view.layer.contentsGravity = kCAGravityCenter;
+    self.view.layer.contentsScale = [UIScreen mainScreen].scale;
 }
 
 @end
