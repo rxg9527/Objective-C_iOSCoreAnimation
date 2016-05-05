@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C5514081CDB9E2400270909 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5514071CDB9E2400270909 /* main.m */; };
+		0C55140B1CDB9E2400270909 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C55140A1CDB9E2400270909 /* AppDelegate.m */; };
+		0C55140E1CDB9E2400270909 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C55140D1CDB9E2400270909 /* ViewController.m */; };
+		0C5514111CDB9E2400270909 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C55140F1CDB9E2400270909 /* Main.storyboard */; };
+		0C5514131CDB9E2400270909 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C5514121CDB9E2400270909 /* Assets.xcassets */; };
+		0C5514161CDB9E2400270909 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C5514141CDB9E2400270909 /* LaunchScreen.storyboard */; };
 		0CA4B35A1CD846B800CAD3BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA4B3591CD846B800CAD3BF /* main.m */; };
 		0CA4B35D1CD846B800CAD3BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA4B35C1CD846B800CAD3BF /* AppDelegate.m */; };
 		0CA4B3601CD846B800CAD3BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA4B35F1CD846B800CAD3BF /* ViewController.m */; };
@@ -22,6 +28,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C5514041CDB9E2300270909 /* 02_寄宿图.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02_寄宿图.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C5514071CDB9E2400270909 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C5514091CDB9E2400270909 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C55140A1CDB9E2400270909 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C55140C1CDB9E2400270909 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0C55140D1CDB9E2400270909 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C5514101CDB9E2400270909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C5514121CDB9E2400270909 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C5514151CDB9E2400270909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C5514171CDB9E2400270909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CA4B3551CD846B800CAD3BF /* Objective-C_iOSCoreAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective-C_iOSCoreAnimation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CA4B3591CD846B800CAD3BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CA4B35B1CD846B800CAD3BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -45,6 +61,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0C5514011CDB9E2300270909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0CA4B3521CD846B800CAD3BF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -62,11 +85,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C5514051CDB9E2400270909 /* 02_寄宿图 */ = {
+			isa = PBXGroup;
+			children = (
+				0C5514091CDB9E2400270909 /* AppDelegate.h */,
+				0C55140A1CDB9E2400270909 /* AppDelegate.m */,
+				0C55140C1CDB9E2400270909 /* ViewController.h */,
+				0C55140D1CDB9E2400270909 /* ViewController.m */,
+				0C55140F1CDB9E2400270909 /* Main.storyboard */,
+				0C5514121CDB9E2400270909 /* Assets.xcassets */,
+				0C5514141CDB9E2400270909 /* LaunchScreen.storyboard */,
+				0C5514171CDB9E2400270909 /* Info.plist */,
+				0C5514061CDB9E2400270909 /* Supporting Files */,
+			);
+			path = "02_寄宿图";
+			sourceTree = "<group>";
+		};
+		0C5514061CDB9E2400270909 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C5514071CDB9E2400270909 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		0CA4B34C1CD846B800CAD3BF = {
 			isa = PBXGroup;
 			children = (
 				0CA4B3571CD846B800CAD3BF /* Objective-C_iOSCoreAnimation */,
 				0CA4B3741CD846B800CAD3BF /* 01_图层树 */,
+				0C5514051CDB9E2400270909 /* 02_寄宿图 */,
 				0CA4B3561CD846B800CAD3BF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,6 +124,7 @@
 			children = (
 				0CA4B3551CD846B800CAD3BF /* Objective-C_iOSCoreAnimation.app */,
 				0CA4B3731CD846B800CAD3BF /* 01_图层树.app */,
+				0C5514041CDB9E2300270909 /* 02_寄宿图.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,6 +180,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0C5514031CDB9E2300270909 /* 02_寄宿图 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C5514181CDB9E2400270909 /* Build configuration list for PBXNativeTarget "02_寄宿图" */;
+			buildPhases = (
+				0C5514001CDB9E2300270909 /* Sources */,
+				0C5514011CDB9E2300270909 /* Frameworks */,
+				0C5514021CDB9E2300270909 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02_寄宿图";
+			productName = "02_寄宿图";
+			productReference = 0C5514041CDB9E2300270909 /* 02_寄宿图.app */;
+			productType = "com.apple.product-type.application";
+		};
 		0CA4B3541CD846B800CAD3BF /* Objective-C_iOSCoreAnimation */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CA4B36C1CD846B800CAD3BF /* Build configuration list for PBXNativeTarget "Objective-C_iOSCoreAnimation" */;
@@ -174,6 +240,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Yuen;
 				TargetAttributes = {
+					0C5514031CDB9E2300270909 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 					0CA4B3541CD846B800CAD3BF = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -197,11 +266,22 @@
 			targets = (
 				0CA4B3541CD846B800CAD3BF /* Objective-C_iOSCoreAnimation */,
 				0CA4B3721CD846B800CAD3BF /* 01_图层树 */,
+				0C5514031CDB9E2300270909 /* 02_寄宿图 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0C5514021CDB9E2300270909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C5514161CDB9E2400270909 /* LaunchScreen.storyboard in Resources */,
+				0C5514131CDB9E2400270909 /* Assets.xcassets in Resources */,
+				0C5514111CDB9E2400270909 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0CA4B3531CD846B800CAD3BF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -225,6 +305,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0C5514001CDB9E2300270909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C55140E1CDB9E2400270909 /* ViewController.m in Sources */,
+				0C55140B1CDB9E2400270909 /* AppDelegate.m in Sources */,
+				0C5514081CDB9E2400270909 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0CA4B3511CD846B800CAD3BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -248,6 +338,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		0C55140F1CDB9E2400270909 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C5514101CDB9E2400270909 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C5514141CDB9E2400270909 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C5514151CDB9E2400270909 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		0CA4B3611CD846B800CAD3BF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +389,28 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0C5514191CDB9E2400270909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02_寄宿图/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-2----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0C55141A1CDB9E2400270909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02_寄宿图/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-2----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		0CA4B36A1CD846B800CAD3BF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -412,6 +540,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0C5514181CDB9E2400270909 /* Build configuration list for PBXNativeTarget "02_寄宿图" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C5514191CDB9E2400270909 /* Debug */,
+				0C55141A1CDB9E2400270909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		0CA4B3501CD846B800CAD3BF /* Build configuration list for PBXProject "Objective-C_iOSCoreAnimation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
