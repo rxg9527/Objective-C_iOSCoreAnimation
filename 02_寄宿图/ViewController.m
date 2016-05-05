@@ -20,6 +20,7 @@
     
     UIImage *snowManImage = [UIImage imageNamed:@"Snowman"];
     self.view.layer.contents = (__bridge id _Nullable)(snowManImage.CGImage);
+    self.view.layer.contentsGravity = kCAGravityResizeAspect;
 }
 
 - (void)didReceiveMemoryWarning {
