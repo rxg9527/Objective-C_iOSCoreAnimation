@@ -428,6 +428,7 @@
 				0CA4B36E1CD846B800CAD3BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CA4B3871CD846B800CAD3BF /* Build configuration list for PBXNativeTarget "01_图层树" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +437,7 @@
 				0CA4B3891CD846B800CAD3BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
