@@ -25,6 +25,7 @@
 		0CA4B3801CD846B800CAD3BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA4B37E1CD846B800CAD3BF /* Main.storyboard */; };
 		0CA4B3821CD846B800CAD3BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CA4B3811CD846B800CAD3BF /* Assets.xcassets */; };
 		0CA4B3851CD846B800CAD3BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA4B3831CD846B800CAD3BF /* LaunchScreen.storyboard */; };
+		0CB3E90A1CDCB11900D27D69 /* ContentsCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3E9091CDCB11900D27D69 /* ContentsCenterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,8 @@
 		0CA4B3811CD846B800CAD3BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CA4B3841CD846B800CAD3BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CA4B3861CD846B800CAD3BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CB3E9081CDCB11900D27D69 /* ContentsCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentsCenterViewController.h; sourceTree = "<group>"; };
+		0CB3E9091CDCB11900D27D69 /* ContentsCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentsCenterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				0C55140A1CDB9E2400270909 /* AppDelegate.m */,
 				0C55140C1CDB9E2400270909 /* ViewController.h */,
 				0C55140D1CDB9E2400270909 /* ViewController.m */,
+				0CB3E9081CDCB11900D27D69 /* ContentsCenterViewController.h */,
+				0CB3E9091CDCB11900D27D69 /* ContentsCenterViewController.m */,
 				0C55140F1CDB9E2400270909 /* Main.storyboard */,
 				0C5514121CDB9E2400270909 /* Assets.xcassets */,
 				0C5514141CDB9E2400270909 /* LaunchScreen.storyboard */,
@@ -312,6 +317,7 @@
 				0C55140E1CDB9E2400270909 /* ViewController.m in Sources */,
 				0C55140B1CDB9E2400270909 /* AppDelegate.m in Sources */,
 				0C5514081CDB9E2400270909 /* main.m in Sources */,
+				0CB3E90A1CDCB11900D27D69 /* ContentsCenterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,6 +553,7 @@
 				0C55141A1CDB9E2400270909 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CA4B3501CD846B800CAD3BF /* Build configuration list for PBXProject "Objective-C_iOSCoreAnimation" */ = {
 			isa = XCConfigurationList;
