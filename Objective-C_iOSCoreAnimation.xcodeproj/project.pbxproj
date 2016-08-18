@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C25E21E1D88207A00089A40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C25E21D1D88207A00089A40 /* main.m */; };
+		0C25E2211D88207A00089A40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C25E2201D88207A00089A40 /* AppDelegate.m */; };
+		0C25E2241D88207A00089A40 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C25E2231D88207A00089A40 /* ViewController.m */; };
+		0C25E2271D88207A00089A40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C25E2251D88207A00089A40 /* Main.storyboard */; };
+		0C25E2291D88207A00089A40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C25E2281D88207A00089A40 /* Assets.xcassets */; };
+		0C25E22C1D88207A00089A40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C25E22A1D88207A00089A40 /* LaunchScreen.storyboard */; };
 		0C5514081CDB9E2400270909 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5514071CDB9E2400270909 /* main.m */; };
 		0C55140B1CDB9E2400270909 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C55140A1CDB9E2400270909 /* AppDelegate.m */; };
 		0C55140E1CDB9E2400270909 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C55140D1CDB9E2400270909 /* ViewController.m */; };
@@ -29,6 +35,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C25E21A1D88207A00089A40 /* 0202_CustomDrawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 0202_CustomDrawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C25E21D1D88207A00089A40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C25E21F1D88207A00089A40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C25E2201D88207A00089A40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C25E2221D88207A00089A40 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0C25E2231D88207A00089A40 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C25E2261D88207A00089A40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C25E2281D88207A00089A40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C25E22B1D88207A00089A40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C25E22D1D88207A00089A40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C5514041CDB9E2300270909 /* 02_寄宿图.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02_寄宿图.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C5514071CDB9E2400270909 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C5514091CDB9E2400270909 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -64,6 +80,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0C25E2171D88207A00089A40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0C5514011CDB9E2300270909 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -88,6 +111,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C25E21B1D88207A00089A40 /* 0202_CustomDrawing */ = {
+			isa = PBXGroup;
+			children = (
+				0C25E21F1D88207A00089A40 /* AppDelegate.h */,
+				0C25E2201D88207A00089A40 /* AppDelegate.m */,
+				0C25E2221D88207A00089A40 /* ViewController.h */,
+				0C25E2231D88207A00089A40 /* ViewController.m */,
+				0C25E2251D88207A00089A40 /* Main.storyboard */,
+				0C25E2281D88207A00089A40 /* Assets.xcassets */,
+				0C25E22A1D88207A00089A40 /* LaunchScreen.storyboard */,
+				0C25E22D1D88207A00089A40 /* Info.plist */,
+				0C25E21C1D88207A00089A40 /* Supporting Files */,
+			);
+			path = 0202_CustomDrawing;
+			sourceTree = "<group>";
+		};
+		0C25E21C1D88207A00089A40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C25E21D1D88207A00089A40 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		0C5514051CDB9E2400270909 /* 02_寄宿图 */ = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +167,7 @@
 				0CA4B3571CD846B800CAD3BF /* Objective-C_iOSCoreAnimation */,
 				0CA4B3741CD846B800CAD3BF /* 01_图层树 */,
 				0C5514051CDB9E2400270909 /* 02_寄宿图 */,
+				0C25E21B1D88207A00089A40 /* 0202_CustomDrawing */,
 				0CA4B3561CD846B800CAD3BF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,6 +178,7 @@
 				0CA4B3551CD846B800CAD3BF /* Objective-C_iOSCoreAnimation.app */,
 				0CA4B3731CD846B800CAD3BF /* 01_图层树.app */,
 				0C5514041CDB9E2300270909 /* 02_寄宿图.app */,
+				0C25E21A1D88207A00089A40 /* 0202_CustomDrawing.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -185,6 +234,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0C25E2191D88207A00089A40 /* 0202_CustomDrawing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C25E2301D88207A00089A40 /* Build configuration list for PBXNativeTarget "0202_CustomDrawing" */;
+			buildPhases = (
+				0C25E2161D88207A00089A40 /* Sources */,
+				0C25E2171D88207A00089A40 /* Frameworks */,
+				0C25E2181D88207A00089A40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 0202_CustomDrawing;
+			productName = 0202_CustomDrawing;
+			productReference = 0C25E21A1D88207A00089A40 /* 0202_CustomDrawing.app */;
+			productType = "com.apple.product-type.application";
+		};
 		0C5514031CDB9E2300270909 /* 02_寄宿图 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C5514181CDB9E2400270909 /* Build configuration list for PBXNativeTarget "02_寄宿图" */;
@@ -245,6 +311,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Yuen;
 				TargetAttributes = {
+					0C25E2191D88207A00089A40 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 					0C5514031CDB9E2300270909 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -272,11 +341,22 @@
 				0CA4B3541CD846B800CAD3BF /* Objective-C_iOSCoreAnimation */,
 				0CA4B3721CD846B800CAD3BF /* 01_图层树 */,
 				0C5514031CDB9E2300270909 /* 02_寄宿图 */,
+				0C25E2191D88207A00089A40 /* 0202_CustomDrawing */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0C25E2181D88207A00089A40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C25E22C1D88207A00089A40 /* LaunchScreen.storyboard in Resources */,
+				0C25E2291D88207A00089A40 /* Assets.xcassets in Resources */,
+				0C25E2271D88207A00089A40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0C5514021CDB9E2300270909 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -310,6 +390,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0C25E2161D88207A00089A40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C25E2241D88207A00089A40 /* ViewController.m in Sources */,
+				0C25E2211D88207A00089A40 /* AppDelegate.m in Sources */,
+				0C25E21E1D88207A00089A40 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0C5514001CDB9E2300270909 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -344,6 +434,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		0C25E2251D88207A00089A40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C25E2261D88207A00089A40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C25E22A1D88207A00089A40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C25E22B1D88207A00089A40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		0C55140F1CDB9E2400270909 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -395,6 +501,28 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0C25E22E1D88207A00089A40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 0202_CustomDrawing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-202-CustomDrawing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0C25E22F1D88207A00089A40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 0202_CustomDrawing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-202-CustomDrawing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		0C5514191CDB9E2400270909 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -546,6 +674,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0C25E2301D88207A00089A40 /* Build configuration list for PBXNativeTarget "0202_CustomDrawing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C25E22E1D88207A00089A40 /* Debug */,
+				0C25E22F1D88207A00089A40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		0C5514181CDB9E2400270909 /* Build configuration list for PBXNativeTarget "02_寄宿图" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
