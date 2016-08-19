@@ -24,6 +24,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    //调整锚点位置，(0.5, 0.5)是锚点默认位置，锚点改为(0.5f, 0.9f)后，锚点移向下方，图片移向上方
+    self.secondHand.layer.anchorPoint = CGPointMake(0.5f, 0.9f);
+    self.minuteHand.layer.anchorPoint = CGPointMake(0.5f, 0.9f);
+    self.hourHand.layer.anchorPoint = CGPointMake(0.5f, 0.9f);
+
     //开始定时器
     self.timer = [NSTimer scheduledTimerWithTimeInterval:1.f
                                                   target:self
@@ -34,11 +39,6 @@
     [self tick];
 }
 
-/**
- *  总结：“钟表的图片在围绕着中心旋转”
- *  “也许在图片末尾添加一个透明空间也是个解决方案，但这样会让图片变大，也会消耗更多的内存，这样并不优雅。”
- *  “更好的方案是使用anchorPoint属性”
- */
 - (void)tick
 {
     // 取得当前时间的时分秒
