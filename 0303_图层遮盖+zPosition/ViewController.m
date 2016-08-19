@@ -10,6 +10,9 @@
 
 @interface ViewController ()
 
+@property (nonatomic, weak) IBOutlet UIView *greenView;
+@property (nonatomic, weak) IBOutlet UIView *redView;
+
 @end
 
 @implementation ViewController
@@ -17,6 +20,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    self.greenView.layer.zPosition = 1.f;
 }
 
 - (void)didReceiveMemoryWarning {

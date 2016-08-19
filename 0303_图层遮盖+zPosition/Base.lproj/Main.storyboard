@@ -42,6 +42,10 @@
                             <constraint firstItem="R2P-4B-wXJ" firstAttribute="top" secondItem="U8t-iK-Tk4" secondAttribute="bottom" constant="-42" id="lrj-XY-pTu"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="greenView" destination="U8t-iK-Tk4" id="U69-6W-raq"/>
+                        <outlet property="redView" destination="R2P-4B-wXJ" id="kqu-PK-3Fa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
