@@ -10,6 +10,10 @@
 
 @interface ViewController ()
 
+@property (nonatomic, weak) IBOutlet UIImageView *hourHand;
+@property (nonatomic, weak) IBOutlet UIImageView *minuteHand;
+@property (nonatomic, weak) IBOutlet UIImageView *secondHand;
+
 @end
 
 @implementation ViewController
