@@ -1,12 +1,13 @@
 //
 //  AppDelegate.m
-//  0302_时钟指针+AnchorPoint
+//  0301_ClockFace
 //
-//  Created by Yuen on 16/8/19.
+//  Created by Yuen on 16/9/14.
 //  Copyright © 2016年 Yuen. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[ViewController alloc] initWithNibName:NSStringFromClass(ViewController.class) bundle:nil]];
+
     return YES;
 }
 
