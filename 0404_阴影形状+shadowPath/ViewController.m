@@ -20,6 +20,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    //开启layer的阴影
+    self.layerView1.layer.shadowOpacity = 0.5f;
+    self.layerView2.layer.shadowOpacity = 0.5f;
+
+    //创建一个矩形阴影
+    CGMutablePathRef squarePath = CGPathCreateMutable();
+    CGPathAddRect(squarePath, NULL, self.layerView1.bounds);
+    self.layerView1.layer.shadowPath = squarePath;
+    CGPathRelease(squarePath);
+    
+    //创建一个圆形阴影
+    CGMutablePathRef roundPath = CGPathCreateMutable();
+    CGPathAddEllipseInRect(roundPath, NULL, self.layerView2.bounds);
+    self.layerView2.layer.shadowPath = roundPath;
+    CGPathRelease(roundPath);
 }
 
 @end
