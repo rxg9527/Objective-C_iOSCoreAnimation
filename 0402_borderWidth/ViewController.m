@@ -23,6 +23,10 @@
     self.layerView1.layer.cornerRadius = 20.f;
     self.layerView2.layer.cornerRadius = 20.f;
     
+    //默认borderColor是黑色
+    self.layerView1.layer.borderWidth = 5.f;
+    self.layerView2.layer.borderWidth = 5.f;
+    
     self.layerView1.layer.masksToBounds = YES;
 }
 
