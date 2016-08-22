@@ -1,15 +1,12 @@
 //
 //  ViewController.h
-//  0403_阴影
 //
-//  Created by Yuen on 16/8/23.
-//  Copyright © 2016年 Yuen. All rights reserved.
+//  Created by Nick Lockwood on 03/02/2013.
+//  Copyright (c) 2013 Charcoal Design. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
 
-
 @end
-
