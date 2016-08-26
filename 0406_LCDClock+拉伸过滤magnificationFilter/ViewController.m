@@ -28,7 +28,10 @@
         timeView.layer.contentsRect = CGRectMake(0, 0, 0.1, 1.0);
         timeView.layer.contentsGravity = kCAGravityResizeAspect;
         
-//        timeView.layer.magnificationFilter = kCAFilterNearest;
+        /**
+         *  一个模糊的时钟，由默认的kCAFilterLinear引起
+         */
+//        timeView.layer.magnificationFilter = kCAFilterLinear;
     }
     
     self.timer = [NSTimer scheduledTimerWithTimeInterval:1.f
