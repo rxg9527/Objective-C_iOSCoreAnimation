@@ -31,7 +31,7 @@
         /**
          *  一个模糊的时钟，由默认的kCAFilterLinear引起
          */
-//        timeView.layer.magnificationFilter = kCAFilterLinear;
+        timeView.layer.magnificationFilter = kCAFilterNearest;
     }
     
     self.timer = [NSTimer scheduledTimerWithTimeInterval:1.f
