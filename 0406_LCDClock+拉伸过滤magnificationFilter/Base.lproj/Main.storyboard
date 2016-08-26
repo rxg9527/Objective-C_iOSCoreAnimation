@@ -27,39 +27,39 @@
                                             <constraint firstAttribute="height" constant="128" id="nt9-FJ-z7U"/>
                                         </constraints>
                                     </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LUQ-2r-m9m">
+                                        <rect key="frame" x="191.5" y="86.5" width="56" height="128"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="128" id="Jd5-Y1-Wrg"/>
+                                        </constraints>
+                                    </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TO6-sT-55f">
-                                        <rect key="frame" x="255.5" y="86" width="55.5" height="128"/>
+                                        <rect key="frame" x="255.5" y="86.5" width="55.5" height="128"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="128" id="jLV-Ba-OQV"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iMc-Yr-Uyk">
-                                        <rect key="frame" x="64" y="86" width="55.5" height="128"/>
+                                        <rect key="frame" x="63.5" y="86.5" width="55.5" height="128"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="128" id="ihW-9k-z0M"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zDp-Sx-AeI">
-                                        <rect key="frame" x="0.0" y="86" width="56" height="128"/>
+                                        <rect key="frame" x="-0.5" y="86.5" width="56" height="128"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="128" id="bcW-4v-3Xt"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7si-kd-PmJ">
-                                        <rect key="frame" x="319" y="86" width="56" height="128"/>
+                                        <rect key="frame" x="318.5" y="86.5" width="56" height="128"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="128" id="2du-1k-xQh"/>
-                                        </constraints>
-                                    </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LUQ-2r-m9m">
-                                        <rect key="frame" x="191.5" y="86" width="56" height="128"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="128" id="Jd5-Y1-Wrg"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -95,6 +95,14 @@
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outletCollection property="digitViews" destination="zDp-Sx-AeI" id="zeZ-sn-Oh3"/>
+                        <outletCollection property="digitViews" destination="iMc-Yr-Uyk" id="B6u-7v-Egl"/>
+                        <outletCollection property="digitViews" destination="9aq-6y-ARz" id="aqN-EP-Uj6"/>
+                        <outletCollection property="digitViews" destination="LUQ-2r-m9m" id="Q1R-12-TLM"/>
+                        <outletCollection property="digitViews" destination="TO6-sT-55f" id="G21-lt-dQG"/>
+                        <outletCollection property="digitViews" destination="7si-kd-PmJ" id="dcH-Ou-MXW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
