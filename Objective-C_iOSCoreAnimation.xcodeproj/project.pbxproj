@@ -748,7 +748,7 @@
 			name = "『05』-变化";
 			sourceTree = "<group>";
 		};
-		0CA3F5791D71518B005403AE /* 0501_视图旋转45度+仿射变换(CAAffineTransformMakeRotation) */ = {
+		0CA3F5791D71518B005403AE /* 0501_视图旋转45度+仿射变换(CGAffineTransformMakeRotation) */ = {
 			isa = PBXGroup;
 			children = (
 				0CA3F57D1D71518B005403AE /* AppDelegate.h */,
@@ -761,6 +761,7 @@
 				0CA3F58B1D71518B005403AE /* Info.plist */,
 				0CA3F57A1D71518B005403AE /* Supporting Files */,
 			);
+			name = "0501_视图旋转45度+仿射变换(CGAffineTransformMakeRotation)";
 			path = "0501_视图旋转45度+仿射变换(CAAffineTransformMakeRotation)";
 			sourceTree = "<group>";
 		};
@@ -794,7 +795,7 @@
 				0CA3F53A1D7022F8005403AE /* 0406_LCDClock+拉伸过滤magnificationFilter */,
 				0CA3F5571D70441C005403AE /* 0407_组透明+shouldRasterize */,
 				0CA3F5731D70457F005403AE /* 『05』-变化 */,
-				0CA3F5791D71518B005403AE /* 0501_视图旋转45度+仿射变换(CAAffineTransformMakeRotation) */,
+				0CA3F5791D71518B005403AE /* 0501_视图旋转45度+仿射变换(CGAffineTransformMakeRotation) */,
 				0CA4B3561CD846B800CAD3BF /* Products */,
 			);
 			sourceTree = "<group>";

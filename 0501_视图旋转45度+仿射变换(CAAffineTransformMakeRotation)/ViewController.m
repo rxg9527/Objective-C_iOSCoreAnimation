@@ -10,6 +10,8 @@
 
 @interface ViewController ()
 
+@property (nonatomic, weak) IBOutlet UIView *layerView;
+
 @end
 
 @implementation ViewController
@@ -17,11 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+    self.layerView.layer.affineTransform = CGAffineTransformMakeRotation(M_PI_4);
 }
 
 @end
