@@ -10,6 +10,8 @@
 
 @interface ViewController ()
 
+@property (nonatomic, weak) IBOutlet UIView *layerView;
+
 @end
 
 @implementation ViewController
@@ -17,11 +19,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-}
+    
+    CATransform3D transform3D = CATransform3DIdentity;
+    transform3D.m34 = -1.0/500;
+    transform3D = CATransform3DRotate(transform3D, M_PI_4, 0, 1, 0);
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    self.layerView.layer.transform = transform3D;
 }
 
 @end
