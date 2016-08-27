@@ -93,6 +93,12 @@
 		0CA3F5851D71518B005403AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA3F5831D71518B005403AE /* Main.storyboard */; };
 		0CA3F5871D71518B005403AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CA3F5861D71518B005403AE /* Assets.xcassets */; };
 		0CA3F58A1D71518B005403AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA3F5881D71518B005403AE /* LaunchScreen.storyboard */; };
+		0CA3F5971D715374005403AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA3F5961D715374005403AE /* main.m */; };
+		0CA3F59A1D715374005403AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA3F5991D715374005403AE /* AppDelegate.m */; };
+		0CA3F59D1D715374005403AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA3F59C1D715374005403AE /* ViewController.m */; };
+		0CA3F5A01D715374005403AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA3F59E1D715374005403AE /* Main.storyboard */; };
+		0CA3F5A21D715374005403AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CA3F5A11D715374005403AE /* Assets.xcassets */; };
+		0CA3F5A51D715374005403AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA3F5A31D715374005403AE /* LaunchScreen.storyboard */; };
 		0CA4B35A1CD846B800CAD3BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA4B3591CD846B800CAD3BF /* main.m */; };
 		0CA4B35D1CD846B800CAD3BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA4B35C1CD846B800CAD3BF /* AppDelegate.m */; };
 		0CA4B3601CD846B800CAD3BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA4B35F1CD846B800CAD3BF /* ViewController.m */; };
@@ -256,6 +262,16 @@
 		0CA3F5861D71518B005403AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CA3F5891D71518B005403AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CA3F58B1D71518B005403AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CA3F5931D715374005403AE /* 0502_混合变换(CGAffineTransformIdentity).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0502_混合变换(CGAffineTransformIdentity).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CA3F5961D715374005403AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0CA3F5981D715374005403AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0CA3F5991D715374005403AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0CA3F59B1D715374005403AE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0CA3F59C1D715374005403AE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0CA3F59F1D715374005403AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0CA3F5A11D715374005403AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CA3F5A41D715374005403AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0CA3F5A61D715374005403AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CA4B3551CD846B800CAD3BF /* Objective-C_iOSCoreAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective-C_iOSCoreAnimation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CA4B3591CD846B800CAD3BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CA4B35B1CD846B800CAD3BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -382,6 +398,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0CA3F5751D71518B005403AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CA3F5901D715374005403AE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -773,6 +796,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0CA3F5941D715374005403AE /* 0502_混合变换(CGAffineTransformIdentity) */ = {
+			isa = PBXGroup;
+			children = (
+				0CA3F5981D715374005403AE /* AppDelegate.h */,
+				0CA3F5991D715374005403AE /* AppDelegate.m */,
+				0CA3F59B1D715374005403AE /* ViewController.h */,
+				0CA3F59C1D715374005403AE /* ViewController.m */,
+				0CA3F59E1D715374005403AE /* Main.storyboard */,
+				0CA3F5A11D715374005403AE /* Assets.xcassets */,
+				0CA3F5A31D715374005403AE /* LaunchScreen.storyboard */,
+				0CA3F5A61D715374005403AE /* Info.plist */,
+				0CA3F5951D715374005403AE /* Supporting Files */,
+			);
+			path = "0502_混合变换(CGAffineTransformIdentity)";
+			sourceTree = "<group>";
+		};
+		0CA3F5951D715374005403AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CA3F5961D715374005403AE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		0CA4B34C1CD846B800CAD3BF = {
 			isa = PBXGroup;
 			children = (
@@ -796,6 +843,7 @@
 				0CA3F5571D70441C005403AE /* 0407_组透明+shouldRasterize */,
 				0CA3F5731D70457F005403AE /* 『05』-变化 */,
 				0CA3F5791D71518B005403AE /* 0501_视图旋转45度+仿射变换(CGAffineTransformMakeRotation) */,
+				0CA3F5941D715374005403AE /* 0502_混合变换(CGAffineTransformIdentity) */,
 				0CA4B3561CD846B800CAD3BF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -820,6 +868,7 @@
 				0CA3F5391D7022F8005403AE /* 0406_LCDClock+拉伸过滤magnificationFilter.app */,
 				0CA3F5561D70441C005403AE /* 0407_组透明+shouldRasterize.app */,
 				0CA3F5781D71518B005403AE /* 0501_视图旋转45度+仿射变换(CAAffineTransformMakeRotation).app */,
+				0CA3F5931D715374005403AE /* 0502_混合变换(CGAffineTransformIdentity).app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1137,6 +1186,23 @@
 			productReference = 0CA3F5781D71518B005403AE /* 0501_视图旋转45度+仿射变换(CAAffineTransformMakeRotation).app */;
 			productType = "com.apple.product-type.application";
 		};
+		0CA3F5921D715374005403AE /* 0502_混合变换(CGAffineTransformIdentity) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CA3F5A71D715374005403AE /* Build configuration list for PBXNativeTarget "0502_混合变换(CGAffineTransformIdentity)" */;
+			buildPhases = (
+				0CA3F58F1D715374005403AE /* Sources */,
+				0CA3F5901D715374005403AE /* Frameworks */,
+				0CA3F5911D715374005403AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "0502_混合变换(CGAffineTransformIdentity)";
+			productName = "0502_混合变换(CGAffineTransformIdentity)";
+			productReference = 0CA3F5931D715374005403AE /* 0502_混合变换(CGAffineTransformIdentity).app */;
+			productType = "com.apple.product-type.application";
+		};
 		0CA4B3541CD846B800CAD3BF /* Objective-C_iOSCoreAnimation */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CA4B36C1CD846B800CAD3BF /* Build configuration list for PBXNativeTarget "Objective-C_iOSCoreAnimation" */;
@@ -1239,6 +1305,9 @@
 					0CA3F5771D71518B005403AE = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
+					0CA3F5921D715374005403AE = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 					0CA4B3541CD846B800CAD3BF = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -1280,6 +1349,7 @@
 				0CA3F5381D7022F8005403AE /* 0406_LCDClock+拉伸过滤magnificationFilter */,
 				0CA3F5551D70441C005403AE /* 0407_组透明+shouldRasterize */,
 				0CA3F5771D71518B005403AE /* 0501_视图旋转45度+仿射变换(CAAffineTransformMakeRotation) */,
+				0CA3F5921D715374005403AE /* 0502_混合变换(CGAffineTransformIdentity) */,
 			);
 		};
 /* End PBXProject section */
@@ -1423,6 +1493,16 @@
 				0CA3F58A1D71518B005403AE /* LaunchScreen.storyboard in Resources */,
 				0CA3F5871D71518B005403AE /* Assets.xcassets in Resources */,
 				0CA3F5851D71518B005403AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CA3F5911D715374005403AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA3F5A51D715374005403AE /* LaunchScreen.storyboard in Resources */,
+				0CA3F5A21D715374005403AE /* Assets.xcassets in Resources */,
+				0CA3F5A01D715374005403AE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1597,6 +1677,16 @@
 				0CA3F5821D71518B005403AE /* ViewController.m in Sources */,
 				0CA3F57F1D71518B005403AE /* AppDelegate.m in Sources */,
 				0CA3F57C1D71518B005403AE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CA3F58F1D715374005403AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA3F59D1D715374005403AE /* ViewController.m in Sources */,
+				0CA3F59A1D715374005403AE /* AppDelegate.m in Sources */,
+				0CA3F5971D715374005403AE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1805,6 +1895,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				0CA3F5891D71518B005403AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0CA3F59E1D715374005403AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CA3F59F1D715374005403AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0CA3F5A31D715374005403AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CA3F5A41D715374005403AE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -2160,6 +2266,28 @@
 			};
 			name = Release;
 		};
+		0CA3F5A81D715374005403AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "0502_混合变换(CGAffineTransformIdentity)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-502------CGAffineTransformIdentity-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0CA3F5A91D715374005403AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "0502_混合变换(CGAffineTransformIdentity)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-502------CGAffineTransformIdentity-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		0CA4B36A1CD846B800CAD3BF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2430,6 +2558,14 @@
 			buildConfigurations = (
 				0CA3F58D1D71518B005403AE /* Debug */,
 				0CA3F58E1D71518B005403AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0CA3F5A71D715374005403AE /* Build configuration list for PBXNativeTarget "0502_混合变换(CGAffineTransformIdentity)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CA3F5A81D715374005403AE /* Debug */,
+				0CA3F5A91D715374005403AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
