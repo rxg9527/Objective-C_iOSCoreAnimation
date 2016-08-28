@@ -10,6 +10,9 @@
 
 @interface ViewController ()
 
+@property (nonatomic, weak) IBOutlet UIView *outerView;
+@property (nonatomic, weak) IBOutlet UIView *innerView;
+
 @end
 
 @implementation ViewController
@@ -17,11 +20,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+    /**
+     *  “如果内部图层相对外部图层做了相反的变换（这里是绕Z轴的旋转），那么按照逻辑这两个变换将被相互抵消。”
+     */
+    //rotate the outer layer 45 degrees
+    CATransform3D outer = CATransform3DMakeRotation(M_PI_4, 0, 0, 1);
+    self.outerView.layer.transform = outer;
+    
+    //rotate the inner layer -45 degrees
+    CATransform3D inner = CATransform3DMakeRotation(-M_PI_4, 0, 0, 1);
+    self.innerView.layer.transform = inner;
 }
 
 @end
