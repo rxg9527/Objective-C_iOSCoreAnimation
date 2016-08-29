@@ -80,6 +80,12 @@
 		0C5D3F861D73F47B000B2F4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C5D3F841D73F47B000B2F4E /* Main.storyboard */; };
 		0C5D3F881D73F47B000B2F4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C5D3F871D73F47B000B2F4E /* Assets.xcassets */; };
 		0C5D3F8B1D73F47B000B2F4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C5D3F891D73F47B000B2F4E /* LaunchScreen.storyboard */; };
+		0C5D3FB31D7402CF000B2F4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5D3FB21D7402CF000B2F4E /* main.m */; };
+		0C5D3FB61D7402CF000B2F4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5D3FB51D7402CF000B2F4E /* AppDelegate.m */; };
+		0C5D3FB91D7402CF000B2F4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5D3FB81D7402CF000B2F4E /* ViewController.m */; };
+		0C5D3FBC1D7402CF000B2F4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C5D3FBA1D7402CF000B2F4E /* Main.storyboard */; };
+		0C5D3FBE1D7402CF000B2F4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C5D3FBD1D7402CF000B2F4E /* Assets.xcassets */; };
+		0C5D3FC11D7402CF000B2F4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C5D3FBF1D7402CF000B2F4E /* LaunchScreen.storyboard */; };
 		0CA3F5221D6B7A27005403AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA3F5211D6B7A27005403AE /* main.m */; };
 		0CA3F5251D6B7A27005403AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA3F5241D6B7A27005403AE /* AppDelegate.m */; };
 		0CA3F5281D6B7A27005403AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA3F5271D6B7A27005403AE /* ViewController.m */; };
@@ -295,6 +301,16 @@
 		0C5D3F871D73F47B000B2F4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C5D3F8A1D73F47B000B2F4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C5D3F8C1D73F47B000B2F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C5D3FAF1D7402CF000B2F4E /* 0604_基于CATextLayer的Label+CATextLayer作为宿主图层.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0604_基于CATextLayer的Label+CATextLayer作为宿主图层.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C5D3FB21D7402CF000B2F4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C5D3FB41D7402CF000B2F4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C5D3FB51D7402CF000B2F4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C5D3FB71D7402CF000B2F4E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0C5D3FB81D7402CF000B2F4E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C5D3FBB1D7402CF000B2F4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C5D3FBD1D7402CF000B2F4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C5D3FC01D7402CF000B2F4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C5D3FC21D7402CF000B2F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CA3F51E1D6B7A27005403AE /* 0405_图层蒙版+mask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0405_图层蒙版+mask.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CA3F5211D6B7A27005403AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CA3F5231D6B7A27005403AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -528,6 +544,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0C5D3F761D73F47A000B2F4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C5D3FAC1D7402CF000B2F4E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -946,6 +969,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0C5D3FB01D7402CF000B2F4E /* 0604_基于CATextLayer的Label+CATextLayer作为宿主图层 */ = {
+			isa = PBXGroup;
+			children = (
+				0C5D3FB41D7402CF000B2F4E /* AppDelegate.h */,
+				0C5D3FB51D7402CF000B2F4E /* AppDelegate.m */,
+				0C5D3FB71D7402CF000B2F4E /* ViewController.h */,
+				0C5D3FB81D7402CF000B2F4E /* ViewController.m */,
+				0C5D3FBA1D7402CF000B2F4E /* Main.storyboard */,
+				0C5D3FBD1D7402CF000B2F4E /* Assets.xcassets */,
+				0C5D3FBF1D7402CF000B2F4E /* LaunchScreen.storyboard */,
+				0C5D3FC21D7402CF000B2F4E /* Info.plist */,
+				0C5D3FB11D7402CF000B2F4E /* Supporting Files */,
+			);
+			path = "0604_基于CATextLayer的Label+CATextLayer作为宿主图层";
+			sourceTree = "<group>";
+		};
+		0C5D3FB11D7402CF000B2F4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C5D3FB21D7402CF000B2F4E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		0CA3F51F1D6B7A27005403AE /* 0405_图层蒙版+mask */ = {
 			isa = PBXGroup;
 			children = (
@@ -1284,6 +1331,7 @@
 				0CA3F6561D73CFF4005403AE /* 0601_UIBezierPath+CAShapeLayer */,
 				0C5D3F5F1D73EB6F000B2F4E /* 0602_CATextLayer */,
 				0C5D3F7A1D73F47A000B2F4E /* 0603_CATextLayer+NSAttributedString */,
+				0C5D3FB01D7402CF000B2F4E /* 0604_基于CATextLayer的Label+CATextLayer作为宿主图层 */,
 				0CA4B3561CD846B800CAD3BF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1318,6 +1366,7 @@
 				0CA3F6551D73CFF4005403AE /* 0601_UIBezierPath+CAShapeLayer.app */,
 				0C5D3F5E1D73EB6F000B2F4E /* 0602_CATextLayer.app */,
 				0C5D3F791D73F47A000B2F4E /* 0603_CATextLayer+NSAttributedString.app */,
+				0C5D3FAF1D7402CF000B2F4E /* 0604_基于CATextLayer的Label+CATextLayer作为宿主图层.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1599,6 +1648,23 @@
 			name = "0603_CATextLayer+NSAttributedString";
 			productName = "0603_CATextLayer+NSAttributedString";
 			productReference = 0C5D3F791D73F47A000B2F4E /* 0603_CATextLayer+NSAttributedString.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C5D3FAE1D7402CF000B2F4E /* 0604_基于CATextLayer的Label+CATextLayer作为宿主图层 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C5D3FC51D7402CF000B2F4E /* Build configuration list for PBXNativeTarget "0604_基于CATextLayer的Label+CATextLayer作为宿主图层" */;
+			buildPhases = (
+				0C5D3FAB1D7402CF000B2F4E /* Sources */,
+				0C5D3FAC1D7402CF000B2F4E /* Frameworks */,
+				0C5D3FAD1D7402CF000B2F4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "0604_基于CATextLayer的Label+CATextLayer作为宿主图层";
+			productName = "0604_基于CATextLayer的Label+CATextLayer作为宿主图层";
+			productReference = 0C5D3FAF1D7402CF000B2F4E /* 0604_基于CATextLayer的Label+CATextLayer作为宿主图层.app */;
 			productType = "com.apple.product-type.application";
 		};
 		0CA3F51D1D6B7A27005403AE /* 0405_图层蒙版+mask */ = {
@@ -1903,6 +1969,10 @@
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
 					};
+					0C5D3FAE1D7402CF000B2F4E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
 					0CA3F51D1D6B7A27005403AE = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -1991,6 +2061,7 @@
 				0CA3F6541D73CFF4005403AE /* 0601_UIBezierPath+CAShapeLayer */,
 				0C5D3F5D1D73EB6F000B2F4E /* 0602_CATextLayer */,
 				0C5D3F781D73F47A000B2F4E /* 0603_CATextLayer+NSAttributedString */,
+				0C5D3FAE1D7402CF000B2F4E /* 0604_基于CATextLayer的Label+CATextLayer作为宿主图层 */,
 			);
 		};
 /* End PBXProject section */
@@ -2113,6 +2184,16 @@
 				0C5D3F8B1D73F47B000B2F4E /* LaunchScreen.storyboard in Resources */,
 				0C5D3F881D73F47B000B2F4E /* Assets.xcassets in Resources */,
 				0C5D3F861D73F47B000B2F4E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C5D3FAD1D7402CF000B2F4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C5D3FC11D7402CF000B2F4E /* LaunchScreen.storyboard in Resources */,
+				0C5D3FBE1D7402CF000B2F4E /* Assets.xcassets in Resources */,
+				0C5D3FBC1D7402CF000B2F4E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2388,6 +2469,16 @@
 				0C5D3F831D73F47B000B2F4E /* ViewController.m in Sources */,
 				0C5D3F801D73F47B000B2F4E /* AppDelegate.m in Sources */,
 				0C5D3F7D1D73F47A000B2F4E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C5D3FAB1D7402CF000B2F4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C5D3FB91D7402CF000B2F4E /* ViewController.m in Sources */,
+				0C5D3FB61D7402CF000B2F4E /* AppDelegate.m in Sources */,
+				0C5D3FB31D7402CF000B2F4E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2692,6 +2783,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				0C5D3F8A1D73F47B000B2F4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0C5D3FBA1D7402CF000B2F4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C5D3FBB1D7402CF000B2F4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C5D3FBF1D7402CF000B2F4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C5D3FC01D7402CF000B2F4E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -3187,6 +3294,38 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-603-CATextLayer-NSAttributedString";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0C5D3FC31D7402CF000B2F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				INFOPLIST_FILE = "0604_基于CATextLayer的Label+CATextLayer作为宿主图层/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-604---CATextLayer-Label-CATextLayer------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0C5D3FC41D7402CF000B2F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				INFOPLIST_FILE = "0604_基于CATextLayer的Label+CATextLayer作为宿主图层/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-604---CATextLayer-Label-CATextLayer------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -3705,12 +3844,22 @@
 				0C5D3F731D73EB70000B2F4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C5D3F8D1D73F47B000B2F4E /* Build configuration list for PBXNativeTarget "0603_CATextLayer+NSAttributedString" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C5D3F8E1D73F47B000B2F4E /* Debug */,
 				0C5D3F8F1D73F47B000B2F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C5D3FC51D7402CF000B2F4E /* Build configuration list for PBXNativeTarget "0604_基于CATextLayer的Label+CATextLayer作为宿主图层" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C5D3FC31D7402CF000B2F4E /* Debug */,
+				0C5D3FC41D7402CF000B2F4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
