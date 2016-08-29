@@ -1102,6 +1102,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0CA3F6501D73CEE2005403AE /* 『06』-专用图层 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "『06』-专用图层";
+			sourceTree = "<group>";
+		};
 		0CA4B34C1CD846B800CAD3BF = {
 			isa = PBXGroup;
 			children = (
@@ -1132,6 +1139,7 @@
 				0CA3F6001D7287A4005403AE /* 0506_绕Z轴做相反的旋转变换+扁平化图层 */,
 				0CA3F61B1D7289AC005403AE /* 0507_绕Y轴相反的旋转变换+扁平化图层 */,
 				0CA3F6381D728CA8005403AE /* 0508_创建一个立方体+固体对象 */,
+				0CA3F6501D73CEE2005403AE /* 『06』-专用图层 */,
 				0CA4B3561CD846B800CAD3BF /* Products */,
 			);
 			sourceTree = "<group>";
