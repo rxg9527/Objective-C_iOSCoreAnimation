@@ -28,6 +28,7 @@
     UIFont *font = [UIFont systemFontOfSize:15];
     CFStringRef fontName = (__bridge CFStringRef)font.fontName;
     CGFontRef fontRef = CGFontCreateWithFontName(fontName);
+    //CATextLayer的font属性不是一个UIFont类型，而是一个CFTypeRef类型。这样可以根据你的具体需要来决定字体属性应该是用CGFontRef类型还是CTFontRef类型（Core Text字体）
     textLayer.font = fontRef;
     textLayer.fontSize = font.pointSize;
     if (fontRef) {
