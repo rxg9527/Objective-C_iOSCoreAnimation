@@ -86,6 +86,7 @@
 		0C5D3FBC1D7402CF000B2F4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C5D3FBA1D7402CF000B2F4E /* Main.storyboard */; };
 		0C5D3FBE1D7402CF000B2F4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C5D3FBD1D7402CF000B2F4E /* Assets.xcassets */; };
 		0C5D3FC11D7402CF000B2F4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C5D3FBF1D7402CF000B2F4E /* LaunchScreen.storyboard */; };
+		0C5D3FC81D740319000B2F4E /* XGLayerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5D3FC71D740319000B2F4E /* XGLayerLabel.m */; };
 		0CA3F5221D6B7A27005403AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA3F5211D6B7A27005403AE /* main.m */; };
 		0CA3F5251D6B7A27005403AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA3F5241D6B7A27005403AE /* AppDelegate.m */; };
 		0CA3F5281D6B7A27005403AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA3F5271D6B7A27005403AE /* ViewController.m */; };
@@ -311,6 +312,8 @@
 		0C5D3FBD1D7402CF000B2F4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C5D3FC01D7402CF000B2F4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C5D3FC21D7402CF000B2F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C5D3FC61D740319000B2F4E /* XGLayerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGLayerLabel.h; sourceTree = "<group>"; };
+		0C5D3FC71D740319000B2F4E /* XGLayerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGLayerLabel.m; sourceTree = "<group>"; };
 		0CA3F51E1D6B7A27005403AE /* 0405_图层蒙版+mask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0405_图层蒙版+mask.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CA3F5211D6B7A27005403AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CA3F5231D6B7A27005403AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -976,6 +979,8 @@
 				0C5D3FB51D7402CF000B2F4E /* AppDelegate.m */,
 				0C5D3FB71D7402CF000B2F4E /* ViewController.h */,
 				0C5D3FB81D7402CF000B2F4E /* ViewController.m */,
+				0C5D3FC61D740319000B2F4E /* XGLayerLabel.h */,
+				0C5D3FC71D740319000B2F4E /* XGLayerLabel.m */,
 				0C5D3FBA1D7402CF000B2F4E /* Main.storyboard */,
 				0C5D3FBD1D7402CF000B2F4E /* Assets.xcassets */,
 				0C5D3FBF1D7402CF000B2F4E /* LaunchScreen.storyboard */,
@@ -2477,6 +2482,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C5D3FB91D7402CF000B2F4E /* ViewController.m in Sources */,
+				0C5D3FC81D740319000B2F4E /* XGLayerLabel.m in Sources */,
 				0C5D3FB61D7402CF000B2F4E /* AppDelegate.m in Sources */,
 				0C5D3FB31D7402CF000B2F4E /* main.m in Sources */,
 			);
