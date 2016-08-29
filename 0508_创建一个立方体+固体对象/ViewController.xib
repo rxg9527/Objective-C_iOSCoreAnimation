@@ -7,7 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
             <connections>
-                <outlet property="containerView" destination="iN0-l3-epB" id="Idn-12-Bt6"/>
+                <outlet property="containerView" destination="h7e-Dh-fry" id="2Sx-jp-RVI"/>
                 <outlet property="view" destination="iN0-l3-epB" id="7i2-gd-vbn"/>
                 <outletCollection property="faces" destination="Ze9-vw-uub" id="ki3-JE-2ZN"/>
                 <outletCollection property="faces" destination="KHC-lr-j5E" id="Jlk-tA-fgc"/>
@@ -21,7 +21,19 @@
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h7e-Dh-fry">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" red="0.87450980389999999" green="0.87450980389999999" blue="0.87450980389999999" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="h7e-Dh-fry" secondAttribute="bottom" id="0F4-Zj-3vw"/>
+                <constraint firstItem="h7e-Dh-fry" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="67k-KS-xYg"/>
+                <constraint firstAttribute="trailing" secondItem="h7e-Dh-fry" secondAttribute="trailing" id="EbE-Sb-7Ay"/>
+                <constraint firstItem="h7e-Dh-fry" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="TR8-Cd-EN0"/>
+            </constraints>
         </view>
         <view contentMode="scaleToFill" id="Ze9-vw-uub" userLabel="Cube Face 1">
             <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
