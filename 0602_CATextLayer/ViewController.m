@@ -38,6 +38,9 @@
     textLayer.string = text;
     
     [self.view.layer addSublayer:textLayer];
+    
+    //决定图层内容应该以怎样的分辨率来渲染
+    textLayer.contentsScale = [UIScreen mainScreen].scale;
 }
 
 @end
