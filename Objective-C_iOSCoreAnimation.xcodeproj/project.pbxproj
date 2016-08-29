@@ -1798,6 +1798,7 @@
 					};
 					0CA3F6541D73CFF4005403AE = {
 						CreatedOnToolsVersion = 7.2.1;
+						ProvisioningStyle = Manual;
 					};
 					0CA4B3541CD846B800CAD3BF = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -3158,6 +3159,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "0601_UIBezierPath+CAShapeLayer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-601-UIBezierPath-CAShapeLayer";
@@ -3169,6 +3171,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "0601_UIBezierPath+CAShapeLayer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-601-UIBezierPath-CAShapeLayer";
@@ -3424,6 +3427,7 @@
 				0CA3F5331D6B7A27005403AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CA3F54D1D7022F8005403AE /* Build configuration list for PBXNativeTarget "0406_LCDClock+拉伸过滤magnificationFilter" */ = {
 			isa = XCConfigurationList;
@@ -3432,6 +3436,7 @@
 				0CA3F54F1D7022F8005403AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CA3F56A1D70441C005403AE /* Build configuration list for PBXNativeTarget "0407_组透明+shouldRasterize" */ = {
 			isa = XCConfigurationList;
@@ -3440,6 +3445,7 @@
 				0CA3F56C1D70441C005403AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CA3F58C1D71518B005403AE /* Build configuration list for PBXNativeTarget "0501_视图旋转45度+仿射变换(CAAffineTransformMakeRotation)" */ = {
 			isa = XCConfigurationList;
@@ -3448,6 +3454,7 @@
 				0CA3F58E1D71518B005403AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CA3F5A71D715374005403AE /* Build configuration list for PBXNativeTarget "0502_混合变换(CGAffineTransformIdentity)" */ = {
 			isa = XCConfigurationList;
@@ -3456,6 +3463,7 @@
 				0CA3F5A91D715374005403AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CA3F5C21D71588C005403AE /* Build configuration list for PBXNativeTarget "0503_绕Y轴旋转45°+3D变换" */ = {
 			isa = XCConfigurationList;
@@ -3464,6 +3472,7 @@
 				0CA3F5C41D71588C005403AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CA3F5DD1D715B11005403AE /* Build configuration list for PBXNativeTarget "0504_透视投影+投影变换" */ = {
 			isa = XCConfigurationList;
@@ -3472,6 +3481,7 @@
 				0CA3F5DF1D715B11005403AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CA3F5F81D728567005403AE /* Build configuration list for PBXNativeTarget "0505_sublayerTransform" */ = {
 			isa = XCConfigurationList;
@@ -3480,6 +3490,7 @@
 				0CA3F5FA1D728567005403AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CA3F6131D7287A4005403AE /* Build configuration list for PBXNativeTarget "0506_绕Z轴做相反的旋转变换+扁平化图层" */ = {
 			isa = XCConfigurationList;
@@ -3488,6 +3499,7 @@
 				0CA3F6151D7287A4005403AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CA3F62E1D7289AC005403AE /* Build configuration list for PBXNativeTarget "0507_绕Y轴相反的旋转变换+扁平化图层" */ = {
 			isa = XCConfigurationList;
@@ -3496,6 +3508,7 @@
 				0CA3F6301D7289AC005403AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CA3F64B1D728CA8005403AE /* Build configuration list for PBXNativeTarget "0508_创建一个立方体+固体对象" */ = {
 			isa = XCConfigurationList;
@@ -3504,6 +3517,7 @@
 				0CA3F64D1D728CA8005403AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CA3F6691D73CFF4005403AE /* Build configuration list for PBXNativeTarget "0601_UIBezierPath+CAShapeLayer" */ = {
 			isa = XCConfigurationList;
@@ -3512,6 +3526,7 @@
 				0CA3F66B1D73CFF4005403AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CA4B3501CD846B800CAD3BF /* Build configuration list for PBXProject "Objective-C_iOSCoreAnimation" */ = {
 			isa = XCConfigurationList;
