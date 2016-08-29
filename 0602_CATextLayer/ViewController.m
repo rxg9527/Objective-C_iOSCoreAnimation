@@ -36,6 +36,7 @@
     }
     
     NSString *text = @"【苹果MD818FE/A】苹果（Apple） MD818FE/A Lightning to USB iPhone/iPad/iPod 连接线/数据线【行情 报价 价格 评测】-京东 http://item.jd.com/771942.html";
+    //CATextLayer的string属性并不是你想象的NSString类型，而是id类型。这样你既可以用NSString也可以用NSAttributedString来指定文本了（注意，NSAttributedString并不是NSString的子类）
     textLayer.string = text;
     
     [self.view.layer addSublayer:textLayer];
