@@ -10,6 +10,7 @@
 
 @implementation XGLayerLabel
 
+
 #pragma mark - LifeCyle
 - (instancetype)initWithFrame:(CGRect)frame {
     //called when creating label programmatically
@@ -41,6 +42,10 @@
 }
 
 #pragma mark - Other
+
+/**
+ 如果我们继承了UIView，那我们就可以重写+layerClass方法使得在创建的时候能返回一个不同的图层子类。UIView会在初始化的时候调用+layerClass方法，然后用它的返回类型来创建宿主图层。
+ */
 + (Class)layerClass {
     //this makes our label create a CATextLayer
     //instead of a regular CALayer for its backing layer
@@ -48,6 +53,9 @@
 }
 
 - (CATextLayer *)textLayer {
+    /**
+     把CATextLayer作为宿主图层的另一好处就是视图自动设置了contentsScale属性
+     */
     return (CATextLayer *)self.layer;
 }
 
