@@ -30,7 +30,7 @@
     transform = CATransform3DTranslate(transform, 0, 200, 0);
     transform = CATransform3DRotate(transform, M_PI*0.2, 0, 0, 1);
     transform = CATransform3DTranslate(transform, 0, -200, 0);
-    replicatorLayer.transform = transform;
+    replicatorLayer.instanceTransform = transform;
     
     replicatorLayer.instanceBlueOffset = -0.1;
     replicatorLayer.instanceRedOffset = -0.1;
