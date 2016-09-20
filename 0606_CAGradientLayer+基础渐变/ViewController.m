@@ -17,13 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    CAGradientLayer *layer = [CAGradientLayer layer];
+    layer.frame = self.view.layer.bounds;
+    [self.view.layer addSublayer:layer];
+    
+    layer.colors = @[(__bridge id)[UIColor redColor].CGColor, (__bridge id)[UIColor blueColor].CGColor];
+    layer.startPoint = CGPointMake(0, 0);
+    layer.endPoint = CGPointMake(1, 1);
 }
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 
 @end
