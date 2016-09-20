@@ -215,6 +215,7 @@
 		0CECAB801D91A889001C860E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CECAB7E1D91A889001C860E /* Main.storyboard */; };
 		0CECAB821D91A889001C860E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CECAB811D91A889001C860E /* Assets.xcassets */; };
 		0CECAB851D91A889001C860E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CECAB831D91A889001C860E /* LaunchScreen.storyboard */; };
+		0CECAB8C1D91A8BA001C860E /* XGScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CECAB8B1D91A8BA001C860E /* XGScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -565,6 +566,8 @@
 		0CECAB811D91A889001C860E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CECAB841D91A889001C860E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CECAB861D91A889001C860E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CECAB8A1D91A8BA001C860E /* XGScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGScrollView.h; sourceTree = "<group>"; };
+		0CECAB8B1D91A8BA001C860E /* XGScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1730,6 +1733,8 @@
 				0CECAB791D91A889001C860E /* AppDelegate.m */,
 				0CECAB7B1D91A889001C860E /* ViewController.h */,
 				0CECAB7C1D91A889001C860E /* ViewController.m */,
+				0CECAB8A1D91A8BA001C860E /* XGScrollView.h */,
+				0CECAB8B1D91A8BA001C860E /* XGScrollView.m */,
 				0CECAB7E1D91A889001C860E /* Main.storyboard */,
 				0CECAB811D91A889001C860E /* Assets.xcassets */,
 				0CECAB831D91A889001C860E /* LaunchScreen.storyboard */,
@@ -3186,6 +3191,7 @@
 			files = (
 				0CECAB7D1D91A889001C860E /* ViewController.m in Sources */,
 				0CECAB7A1D91A889001C860E /* AppDelegate.m in Sources */,
+				0CECAB8C1D91A8BA001C860E /* XGScrollView.m in Sources */,
 				0CECAB771D91A889001C860E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
