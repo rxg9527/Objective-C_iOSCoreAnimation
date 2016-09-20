@@ -208,6 +208,7 @@
 		0CA836541D89836500FEA38C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CA836531D89836500FEA38C /* Assets.xcassets */; };
 		0CA836571D89836500FEA38C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA836551D89836500FEA38C /* LaunchScreen.storyboard */; };
 		0CB3E90A1CDCB11900D27D69 /* ContentsCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3E9091CDCB11900D27D69 /* ContentsCenterViewController.m */; };
+		0CECAB6E1D919CD1001C860E /* ReflectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CECAB6D1D919CD1001C860E /* ReflectionView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -546,6 +547,8 @@
 		0CA836581D89836500FEA38C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CB3E9081CDCB11900D27D69 /* ContentsCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentsCenterViewController.h; sourceTree = "<group>"; };
 		0CB3E9091CDCB11900D27D69 /* ContentsCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentsCenterViewController.m; sourceTree = "<group>"; };
+		0CECAB6C1D919CD1001C860E /* ReflectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReflectionView.h; sourceTree = "<group>"; };
+		0CECAB6D1D919CD1001C860E /* ReflectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReflectionView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1216,6 +1219,8 @@
 				0C5D403F1D919427000B2F4E /* AppDelegate.m */,
 				0C5D40411D919427000B2F4E /* ViewController.h */,
 				0C5D40421D919427000B2F4E /* ViewController.m */,
+				0CECAB6C1D919CD1001C860E /* ReflectionView.h */,
+				0CECAB6D1D919CD1001C860E /* ReflectionView.m */,
 				0C5D40441D919427000B2F4E /* Main.storyboard */,
 				0C5D40471D919427000B2F4E /* Assets.xcassets */,
 				0C5D40491D919427000B2F4E /* LaunchScreen.storyboard */,
@@ -2938,6 +2943,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C5D40431D919427000B2F4E /* ViewController.m in Sources */,
+				0CECAB6E1D919CD1001C860E /* ReflectionView.m in Sources */,
 				0C5D40401D919427000B2F4E /* AppDelegate.m in Sources */,
 				0C5D403D1D919427000B2F4E /* main.m in Sources */,
 			);
@@ -4572,6 +4578,7 @@
 				0C5D3FE21D757BC3000B2F4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C5D3FFC1D757F95000B2F4E /* Build configuration list for PBXNativeTarget "0606_CAGradientLayer+基础渐变" */ = {
 			isa = XCConfigurationList;
@@ -4580,6 +4587,7 @@
 				0C5D3FFE1D757F95000B2F4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C5D40171D918A30000B2F4E /* Build configuration list for PBXNativeTarget "0607_CAGradientLayer+多重渐变" */ = {
 			isa = XCConfigurationList;
@@ -4588,6 +4596,7 @@
 				0C5D40191D918A30000B2F4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C5D40321D918FBE000B2F4E /* Build configuration list for PBXNativeTarget "0608_CAReplicatorLayer" */ = {
 			isa = XCConfigurationList;
@@ -4596,6 +4605,7 @@
 				0C5D40341D918FBE000B2F4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C5D404D1D919427000B2F4E /* Build configuration list for PBXNativeTarget "0609_CAReplicatorLayer+反射" */ = {
 			isa = XCConfigurationList;
@@ -4604,6 +4614,7 @@
 				0C5D404F1D919427000B2F4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CA3F5341D6B7A27005403AE /* Build configuration list for PBXNativeTarget "0405_图层蒙版+mask" */ = {
 			isa = XCConfigurationList;
