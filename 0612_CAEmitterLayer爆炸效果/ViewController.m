@@ -19,6 +19,9 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     //create particle emitter layer
+    /**
+     CAEmitterLayer的属性它自己控制着整个例子系统的位置和形状。一些属性比如birthRate，lifetime和celocity，这些属性在CAEmitterCell中也有。这些属性会以相乘的方式作用在一起，这样你就可以用一个值来加速或者扩大整个例子系统。
+     */
     CAEmitterLayer *emitter = [CAEmitterLayer layer];
     emitter.frame = self.view.bounds;
     [self.view.layer addSublayer:emitter];
@@ -33,8 +36,7 @@
      这种粒子的某一属性的初始值。比如，color属性指定了一个可以混合图片内容颜色的混合色。在示例中，我们将它设置为桔色。
      例子某一属性的变化范围。比如emissionRange属性的值是2π，这意味着例子可以从360度任意位置反射出来。如果指定一个小一些的值，就可以创造出一个圆锥形
      指定值在时间线上的变化。比如，在示例中，我们将alphaSpeed设置为-0.4，就是说例子的透明度每过一秒就是减少0.4，这样就有发射出去之后逐渐小时的效果。
-     */
-    CAEmitterCell *cell = [[CAEmitterCell alloc] init];
+     */    CAEmitterCell *cell = [[CAEmitterCell alloc] init];
     cell.contents = (__bridge id)[UIImage imageNamed:@"Spark.png"].CGImage;
     cell.birthRate = 150;
     cell.lifetime = 5.0;
