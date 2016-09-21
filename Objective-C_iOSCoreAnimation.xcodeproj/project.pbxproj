@@ -193,6 +193,7 @@
 		0CA0910E1D92B1FF003C54AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA0910C1D92B1FF003C54AC /* Main.storyboard */; };
 		0CA091101D92B1FF003C54AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CA0910F1D92B1FF003C54AC /* Assets.xcassets */; };
 		0CA091131D92B1FF003C54AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA091111D92B1FF003C54AC /* LaunchScreen.storyboard */; };
+		0CA091191D92B5AE003C54AC /* Spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CA091181D92B5AE003C54AC /* Spark.png */; };
 		0CA3F5221D6B7A27005403AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA3F5211D6B7A27005403AE /* main.m */; };
 		0CA3F5251D6B7A27005403AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA3F5241D6B7A27005403AE /* AppDelegate.m */; };
 		0CA3F5281D6B7A27005403AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA3F5271D6B7A27005403AE /* ViewController.m */; };
@@ -562,6 +563,7 @@
 		0CA0910F1D92B1FF003C54AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CA091121D92B1FF003C54AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CA091141D92B1FF003C54AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CA091181D92B5AE003C54AC /* Spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spark.png; sourceTree = "<group>"; };
 		0CA3F51E1D6B7A27005403AE /* 0405_图层蒙版+mask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0405_图层蒙版+mask.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CA3F5211D6B7A27005403AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CA3F5231D6B7A27005403AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -1545,6 +1547,7 @@
 				0CA0910F1D92B1FF003C54AC /* Assets.xcassets */,
 				0CA091111D92B1FF003C54AC /* LaunchScreen.storyboard */,
 				0CA091141D92B1FF003C54AC /* Info.plist */,
+				0CA091181D92B5AE003C54AC /* Spark.png */,
 				0CA091031D92B1FF003C54AC /* Supporting Files */,
 			);
 			path = "0612_CAEmitterLayer爆炸效果";
@@ -3109,6 +3112,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CA091131D92B1FF003C54AC /* LaunchScreen.storyboard in Resources */,
+				0CA091191D92B5AE003C54AC /* Spark.png in Resources */,
 				0CA091101D92B1FF003C54AC /* Assets.xcassets in Resources */,
 				0CA0910E1D92B1FF003C54AC /* Main.storyboard in Resources */,
 			);
