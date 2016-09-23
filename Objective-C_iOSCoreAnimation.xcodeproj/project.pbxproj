@@ -117,6 +117,12 @@
 		0C5D40461D919427000B2F4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C5D40441D919427000B2F4E /* Main.storyboard */; };
 		0C5D40481D919427000B2F4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C5D40471D919427000B2F4E /* Assets.xcassets */; };
 		0C5D404B1D919427000B2F4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C5D40491D919427000B2F4E /* LaunchScreen.storyboard */; };
+		0C9A76DD1D95205F008C65ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9A76DC1D95205F008C65ED /* main.m */; };
+		0C9A76E01D95205F008C65ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9A76DF1D95205F008C65ED /* AppDelegate.m */; };
+		0C9A76E31D95205F008C65ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9A76E21D95205F008C65ED /* ViewController.m */; };
+		0C9A76E61D95205F008C65ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C9A76E41D95205F008C65ED /* Main.storyboard */; };
+		0C9A76E81D95205F008C65ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C9A76E71D95205F008C65ED /* Assets.xcassets */; };
+		0C9A76EB1D95205F008C65ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C9A76E91D95205F008C65ED /* LaunchScreen.storyboard */; };
 		0CA090691D928153003C54AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA090681D928153003C54AC /* main.m */; };
 		0CA0906C1D928153003C54AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA0906B1D928153003C54AC /* AppDelegate.m */; };
 		0CA0906F1D928153003C54AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA0906E1D928153003C54AC /* ViewController.m */; };
@@ -492,6 +498,16 @@
 		0C5D40471D919427000B2F4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C5D404A1D919427000B2F4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C5D404C1D919427000B2F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C9A76D91D95205F008C65ED /* 0615_AVPlayerLayer+圆角边框变换.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0615_AVPlayerLayer+圆角边框变换.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C9A76DC1D95205F008C65ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C9A76DE1D95205F008C65ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C9A76DF1D95205F008C65ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C9A76E11D95205F008C65ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0C9A76E21D95205F008C65ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C9A76E51D95205F008C65ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C9A76E71D95205F008C65ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C9A76EA1D95205F008C65ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C9A76EC1D95205F008C65ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CA090651D928153003C54AC /* 0611_简单的滚动CATiledLayer实现.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0611_简单的滚动CATiledLayer实现.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CA090681D928153003C54AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CA0906A1D928153003C54AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -887,6 +903,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0C5D40361D919427000B2F4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C9A76D61D95205F008C65ED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1488,6 +1511,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0C9A76DA1D95205F008C65ED /* 0615_AVPlayerLayer+圆角边框变换 */ = {
+			isa = PBXGroup;
+			children = (
+				0C9A76DE1D95205F008C65ED /* AppDelegate.h */,
+				0C9A76DF1D95205F008C65ED /* AppDelegate.m */,
+				0C9A76E11D95205F008C65ED /* ViewController.h */,
+				0C9A76E21D95205F008C65ED /* ViewController.m */,
+				0C9A76E41D95205F008C65ED /* Main.storyboard */,
+				0C9A76E71D95205F008C65ED /* Assets.xcassets */,
+				0C9A76E91D95205F008C65ED /* LaunchScreen.storyboard */,
+				0C9A76EC1D95205F008C65ED /* Info.plist */,
+				0C9A76DB1D95205F008C65ED /* Supporting Files */,
+			);
+			path = "0615_AVPlayerLayer+圆角边框变换";
+			sourceTree = "<group>";
+		};
+		0C9A76DB1D95205F008C65ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C9A76DC1D95205F008C65ED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		0CA090661D928153003C54AC /* 0611_简单的滚动CATiledLayer实现 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2007,6 +2054,7 @@
 				0CA091021D92B1FF003C54AC /* 0612_CAEmitterLayer爆炸效果 */,
 				0CA091431D941F97003C54AC /* 0613_CAEAGLLayer绘制三角形 */,
 				0CA0915E1D9511A8003C54AC /* 0614_AVPlayerLayer */,
+				0C9A76DA1D95205F008C65ED /* 0615_AVPlayerLayer+圆角边框变换 */,
 				0CA4B3561CD846B800CAD3BF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -2052,6 +2100,7 @@
 				0CA091011D92B1FF003C54AC /* 0612_CAEmitterLayer爆炸效果.app */,
 				0CA091421D941F97003C54AC /* 0613_CAEAGLLayer绘制三角形.app */,
 				0CA0915D1D9511A8003C54AC /* 0614_AVPlayerLayer.app */,
+				0C9A76D91D95205F008C65ED /* 0615_AVPlayerLayer+圆角边框变换.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2461,6 +2510,23 @@
 			name = "0609_CAReplicatorLayer+反射";
 			productName = "0609_CAReplicatorLayer+反射";
 			productReference = 0C5D40391D919427000B2F4E /* 0609_CAReplicatorLayer+反射.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C9A76D81D95205F008C65ED /* 0615_AVPlayerLayer+圆角边框变换 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C9A76EF1D95205F008C65ED /* Build configuration list for PBXNativeTarget "0615_AVPlayerLayer+圆角边框变换" */;
+			buildPhases = (
+				0C9A76D51D95205F008C65ED /* Sources */,
+				0C9A76D61D95205F008C65ED /* Frameworks */,
+				0C9A76D71D95205F008C65ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "0615_AVPlayerLayer+圆角边框变换";
+			productName = "0615_AVPlayerLayer+圆角边框变换";
+			productReference = 0C9A76D91D95205F008C65ED /* 0615_AVPlayerLayer+圆角边框变换.app */;
 			productType = "com.apple.product-type.application";
 		};
 		0CA090641D928153003C54AC /* 0611_简单的滚动CATiledLayer实现 */ = {
@@ -2874,6 +2940,10 @@
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
 					};
+					0C9A76D81D95205F008C65ED = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
 					0CA090641D928153003C54AC = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
@@ -2993,6 +3063,7 @@
 				0CA091001D92B1FF003C54AC /* 0612_CAEmitterLayer爆炸效果 */,
 				0CA091411D941F97003C54AC /* 0613_CAEAGLLayer绘制三角形 */,
 				0CA0915C1D9511A8003C54AC /* 0614_AVPlayerLayer */,
+				0C9A76D81D95205F008C65ED /* 0615_AVPlayerLayer+圆角边框变换 */,
 			);
 		};
 /* End PBXProject section */
@@ -3175,6 +3246,16 @@
 				0C5D404B1D919427000B2F4E /* LaunchScreen.storyboard in Resources */,
 				0C5D40481D919427000B2F4E /* Assets.xcassets in Resources */,
 				0C5D40461D919427000B2F4E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C9A76D71D95205F008C65ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C9A76EB1D95205F008C65ED /* LaunchScreen.storyboard in Resources */,
+				0C9A76E81D95205F008C65ED /* Assets.xcassets in Resources */,
+				0C9A76E61D95205F008C65ED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3631,6 +3712,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0C9A76D51D95205F008C65ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C9A76E31D95205F008C65ED /* ViewController.m in Sources */,
+				0C9A76E01D95205F008C65ED /* AppDelegate.m in Sources */,
+				0C9A76DD1D95205F008C65ED /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0CA090611D928153003C54AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -4079,6 +4170,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				0C5D404A1D919427000B2F4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0C9A76E41D95205F008C65ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C9A76E51D95205F008C65ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C9A76E91D95205F008C65ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C9A76EA1D95205F008C65ED /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -4850,6 +4957,38 @@
 			};
 			name = Release;
 		};
+		0C9A76ED1D95205F008C65ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				INFOPLIST_FILE = "0615_AVPlayerLayer+圆角边框变换/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-615-AVPlayerLayer-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0C9A76EE1D95205F008C65ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				INFOPLIST_FILE = "0615_AVPlayerLayer+圆角边框变换/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-615-AVPlayerLayer-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		0CA090791D928153003C54AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -5589,6 +5728,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		0C9A76EF1D95205F008C65ED /* Build configuration list for PBXNativeTarget "0615_AVPlayerLayer+圆角边框变换" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C9A76ED1D95205F008C65ED /* Debug */,
+				0C9A76EE1D95205F008C65ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		0CA0907B1D928153003C54AC /* Build configuration list for PBXNativeTarget "0611_简单的滚动CATiledLayer实现" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -5596,6 +5743,7 @@
 				0CA0907A1D928153003C54AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CA091151D92B1FF003C54AC /* Build configuration list for PBXNativeTarget "0612_CAEmitterLayer爆炸效果" */ = {
 			isa = XCConfigurationList;
@@ -5604,6 +5752,7 @@
 				0CA091171D92B1FF003C54AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CA091561D941F97003C54AC /* Build configuration list for PBXNativeTarget "0613_CAEAGLLayer绘制三角形" */ = {
 			isa = XCConfigurationList;
@@ -5612,6 +5761,7 @@
 				0CA091581D941F97003C54AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CA091711D9511A8003C54AC /* Build configuration list for PBXNativeTarget "0614_AVPlayerLayer" */ = {
 			isa = XCConfigurationList;
@@ -5620,6 +5770,7 @@
 				0CA091731D9511A8003C54AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CA3F5341D6B7A27005403AE /* Build configuration list for PBXNativeTarget "0405_图层蒙版+mask" */ = {
 			isa = XCConfigurationList;
