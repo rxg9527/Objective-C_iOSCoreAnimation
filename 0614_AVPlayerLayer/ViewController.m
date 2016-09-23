@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import <AVFoundation/AVFoundation.h>
 
 @interface ViewController ()
+
+@property (nonatomic, weak) IBOutlet UIView *containerView;
 
 @end
 
@@ -17,13 +20,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    NSURL *url = [[NSBundle mainBundle] URLForResource:@"Ship" withExtension:@"mp4"];
+    
+    AVPlayer *player = [AVPlayer playerWithURL:url];
+    AVPlayerLayer *layer = [AVPlayerLayer playerLayerWithPlayer:player];
+    
+    layer.frame = self.containerView.bounds;
+    [self.containerView.layer addSublayer:layer];
+    
+    [player play];
 }
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 
 @end

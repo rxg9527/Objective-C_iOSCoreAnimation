@@ -206,6 +206,7 @@
 		0CA0916A1D9511A8003C54AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA091681D9511A8003C54AC /* Main.storyboard */; };
 		0CA0916C1D9511A8003C54AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CA0916B1D9511A8003C54AC /* Assets.xcassets */; };
 		0CA0916F1D9511A8003C54AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA0916D1D9511A8003C54AC /* LaunchScreen.storyboard */; };
+		0CA091751D9517E9003C54AC /* Ship.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0CA091741D9513C9003C54AC /* Ship.mp4 */; };
 		0CA3F5221D6B7A27005403AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA3F5211D6B7A27005403AE /* main.m */; };
 		0CA3F5251D6B7A27005403AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA3F5241D6B7A27005403AE /* AppDelegate.m */; };
 		0CA3F5281D6B7A27005403AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA3F5271D6B7A27005403AE /* ViewController.m */; };
@@ -596,6 +597,7 @@
 		0CA0916B1D9511A8003C54AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CA0916E1D9511A8003C54AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CA091701D9511A8003C54AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CA091741D9513C9003C54AC /* Ship.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ship.mp4; sourceTree = "<group>"; };
 		0CA3F51E1D6B7A27005403AE /* 0405_图层蒙版+mask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0405_图层蒙版+mask.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CA3F5211D6B7A27005403AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CA3F5231D6B7A27005403AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -1634,6 +1636,7 @@
 		0CA0915E1D9511A8003C54AC /* 0614_AVPlayerLayer */ = {
 			isa = PBXGroup;
 			children = (
+				0CA091741D9513C9003C54AC /* Ship.mp4 */,
 				0CA091621D9511A8003C54AC /* AppDelegate.h */,
 				0CA091631D9511A8003C54AC /* AppDelegate.m */,
 				0CA091651D9511A8003C54AC /* ViewController.h */,
@@ -3277,6 +3280,7 @@
 				0CA0916F1D9511A8003C54AC /* LaunchScreen.storyboard in Resources */,
 				0CA0916C1D9511A8003C54AC /* Assets.xcassets in Resources */,
 				0CA0916A1D9511A8003C54AC /* Main.storyboard in Resources */,
+				0CA091751D9517E9003C54AC /* Ship.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
